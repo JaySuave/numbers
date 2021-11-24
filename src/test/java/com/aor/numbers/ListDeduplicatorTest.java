@@ -20,7 +20,7 @@ public class ListDeduplicatorTest {
         class StubListSorter implements GenericListSorter {
             @Override
             public List<Integer> sort(List<Integer> list) {
-                return Arrays.asList(1, 2, 4, 5);
+                return Arrays.asList(1, 2,2, 4, 5);
             }
         }
         StubListSorter sorter = new StubListSorter();
@@ -29,8 +29,13 @@ public class ListDeduplicatorTest {
         Assertions.assertEquals(expected, distinct);
     }
     @Test
-    public void deduplicate_mockito(){
+    public void deduplicateMockito(){
+        List<Integer> expected = Arrays.asList(1,2,4,5);
+
         GenericListSorter sorter = Mockito.mock(GenericListSorter.class);
-        Mockito.when(sorter.sort(Mockito.anyList())).thenReturn(Arrays.asList(1,2,4,5));
+        Mockito.when(sorter.sort(Mockito.anyList())).thenReturn(Arrays.asList(1,2,2,4,5));
+        ListDeduplicator deduplicator = new ListDeduplicator(sorter);
+        List<Integer> distinct = deduplicator.deduplicate(list);
+        Assertions.assertEquals(expected, distinct);
     }
 }

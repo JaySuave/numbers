@@ -73,9 +73,4 @@ public class ListAggregatorTest {
         int distinct = aggregator.distinct(list, deduplicator);
         Assertions.assertEquals(3, distinct);
     }
-    @Test
-    public void distinct_mockito(){
-        GenericListDeduplicator deduplicator = Mockito.mock(GenericListDeduplicator.class);
-        Mockito.when(deduplicator.deduplicate(Mockito.anyList())).thenReturn(Arrays.asList(1,2,4));
-    }
 }

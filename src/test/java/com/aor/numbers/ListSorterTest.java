@@ -11,11 +11,11 @@ public class ListSorterTest {
     private List<Integer> list;
     @BeforeEach
     private void helper(){
-        list = Arrays.asList(1,2,4,3,5,6,7);
+        list = Arrays.asList(1,4,3,2,6,7,5);
     }
     @Test
     public void sort() {
-        List<Integer> expected = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
+        List<Integer> expected = Arrays.asList(1, 2, 3, 4,5, 6, 7);
 
         ListSorter sorter = new ListSorter();
         List<Integer> sorted = sorter.sort(list);
