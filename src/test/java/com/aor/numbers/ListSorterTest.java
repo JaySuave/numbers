@@ -15,7 +15,7 @@ public class ListSorterTest {
     }
     @Test
     public void sort() {
-        List<Integer> expected = Arrays.asList(1, 2, 3, 4,5, 6, 7);
+        List<Integer> expected = Arrays.asList(1,2,3,4,5,6,7);
 
         ListSorter sorter = new ListSorter();
         List<Integer> sorted = sorter.sort(list);

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.numbers.ListDeduplicatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-24T22:46:53" hostname="LAPTOP-TG6UCA0T" time="1.245">
+<testsuite name="com.aor.numbers.ListDeduplicatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-26T17:25:36" hostname="LAPTOP-TG6UCA0T" time="0.891">
   <properties/>
-  <testcase name="deduplicate()" classname="com.aor.numbers.ListDeduplicatorTest" time="0.002"/>
-  <testcase name="deduplicateMockito()" classname="com.aor.numbers.ListDeduplicatorTest" time="1.243"/>
+  <testcase name="deduplicate()" classname="com.aor.numbers.ListDeduplicatorTest" time="0.006"/>
+  <testcase name="deduplicateMockito()" classname="com.aor.numbers.ListDeduplicatorTest" time="0.885"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
