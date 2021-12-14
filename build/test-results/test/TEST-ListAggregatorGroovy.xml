@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ListAggregatorGroovy" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-12-14T01:02:52" hostname="LAPTOP-TG6UCA0T" time="0.007">
+  <properties/>
+  <testcase name="soma" classname="ListAggregatorGroovy" time="0.003"/>
+  <testcase name="max" classname="ListAggregatorGroovy" time="0.001"/>
+  <testcase name="min" classname="ListAggregatorGroovy" time="0.001"/>
+  <testcase name="distinct_bug" classname="ListAggregatorGroovy" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

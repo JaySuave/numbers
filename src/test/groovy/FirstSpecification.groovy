@@ -55,6 +55,5 @@ class FirstSpecification extends Specification{
             def result = deduplicator.deduplicate(Arrays.asList(1,2,4,2))
         then:
             result == Arrays.asList(1,2,4)
-
     }
 }

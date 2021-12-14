@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FirstSpecification" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-11-26T17:25:35" hostname="LAPTOP-TG6UCA0T" time="0.547">
+<testsuite name="FirstSpecification" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-12-14T01:02:51" hostname="LAPTOP-TG6UCA0T" time="0.061">
   <properties/>
-  <testcase name="one plus one should equal two" classname="FirstSpecification" time="0.343"/>
-  <testcase name="two plus two should equal four" classname="FirstSpecification" time="0.003"/>
-  <testcase name="Should be able to remove from list" classname="FirstSpecification" time="0.068"/>
-  <testcase name="Should get an index out of bounds when removing a nonexistent item" classname="FirstSpecification" time="0.007"/>
-  <testcase name="numbers to the power of two [a: 1, b: 2, c: 1, #0]" classname="FirstSpecification" time="0.005"/>
+  <testcase name="one plus one should equal two" classname="FirstSpecification" time="0.028"/>
+  <testcase name="two plus two should equal four" classname="FirstSpecification" time="0.002"/>
+  <testcase name="Should be able to remove from list" classname="FirstSpecification" time="0.008"/>
+  <testcase name="Should get an index out of bounds when removing a nonexistent item" classname="FirstSpecification" time="0.002"/>
+  <testcase name="numbers to the power of two [a: 1, b: 2, c: 1, #0]" classname="FirstSpecification" time="0.002"/>
   <testcase name="numbers to the power of two [a: 2, b: 2, c: 4, #1]" classname="FirstSpecification" time="0.0"/>
   <testcase name="numbers to the power of two [a: 3, b: 2, c: 9, #2]" classname="FirstSpecification" time="0.0"/>
-  <testcase name="distinct bug 8726" classname="FirstSpecification" time="0.106"/>
+  <testcase name="distinct bug 8726" classname="FirstSpecification" time="0.009"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
